@@ -7,7 +7,7 @@ This document is the detailed, real-world post-incident report I prepared as the
 - **100% Data Restoration:** Recovered all user and course data after total database loss.
 - **88% Performance Improvement:** Identified and fixed a critical bug, reducing page load times from 25s to <3s.
 - **Zero to Production Admin Suite:** Built a complete Course and Policy Management System from scratch to replace insecure, direct-database workflows.
-- **Security Lockdown:** Migrated to A new cLuster, implemented IP firewalls, and neutralized the initial breach vector.
+- **Security Lockdown:** Migrated to A new cluster, implemented IP firewalls, and neutralized the initial breach vector.
 
 ---
 
@@ -36,7 +36,6 @@ Following a critical security incident that resulted in total database loss, a m
 
 ## 5. Phase IV: Complete Data Restoration
 **Objective:** To meticulously recreate all critical business and user data lost in the hack.
-- **Action:** Manually re-created the primary "Workplace Safety and Health" course using the new admin tools to restore our most critical compliance module.
 - **Action: Developed and executed a series of secure, one-time administrative scripts** for bulk data remediation:
     - **Bulk Enrollment:** Enrolled all users in the required safety course.
     - **Bulk Certificate Generation:** Generated and uploaded new, unique certificates to **AWS S3** for all 24 users, restoring their lost qualifications.
